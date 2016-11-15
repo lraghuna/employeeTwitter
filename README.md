@@ -1,4 +1,6 @@
 # EmpTwitter
+Employee Twitter application with a NodeJS backend and a AngularJS interface. 
+
 To run locally (MongoDB setup required).
 
 1. Run 'npm install' from the root dir.
