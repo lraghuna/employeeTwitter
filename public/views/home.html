@@ -1,0 +1,22 @@
+<div class="table-container" style="width: 80%">
+    <table class="table table-filter">
+        <tbody>
+        <tr data-status="pagado" ng-repeat="tweet in tweets">
+            <td>
+                <div class="media">
+                    <a href="#" class="pull-left">
+                        <img src="images/maleAvatar.png" class="media-photo" style="width:20px;height:20px;">
+                    </a>
+                    <div class="media-body">
+                        <span class="media-meta pull-right">{{tweet.timestamp}}</span>
+                        <h4 class="title">
+                            {{tweet.username}}
+                        </h4>
+                        <p class="summary">{{tweet.tweet}}</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
